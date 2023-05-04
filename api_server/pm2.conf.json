@@ -1,0 +1,14 @@
+{
+  "apps":[
+    {
+      "name": "api-server",
+      "script": "./bin/www",
+      "out_file": "log/out.log",
+      "err_file": "log/err.log",
+      "log_date_format": "YYYY-MM-DD",
+      "watch": "true",
+
+      "autorestart": true
+    }
+  ]
+}

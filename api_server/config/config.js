@@ -1,0 +1,11 @@
+module.exports={
+    jwt:{
+        secret:'whisper_video',
+        unless:['/api/login','/api/register']
+    },
+    qiniu:{
+        AK:'mqYlOWy-i-119JkdgaR86DHQumpcpwtQr4kfLAPt',
+        SK:'DxYuIGJdlKyXvBJ1j4fYErsF9jDOWmZMj0VrHbm5',
+        bucket:'whispervideo'
+    }
+}
